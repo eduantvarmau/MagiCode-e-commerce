@@ -13,7 +13,7 @@ const deleteUser = (userId) => {
     method: "DELETE",
   }).then((res) => {
     if (res.ok) {
-      window.location.href = "/index.html";
+      window.location.href = "/detailsuser.html";
     } else {
       console.error(res);
     }
