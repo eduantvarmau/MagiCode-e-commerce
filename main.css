@@ -1,0 +1,123 @@
+/* SE DECLARARON VARIABLES PARA LOS COLORES */
+:root{
+    --ColorLightPurple: #d2a0f5;
+    --ColorDarkPurple: #d2a0f5;
+    --ColorWhite: #fff;
+    --ColorBlack: #000; 
+    --ColorLightGray: #707789;
+    --ColorDarkGray: #636978; 
+    --ColorLightYellow: #fff8ab;
+    --ColorDarkYellow: #ffee6e;
+    --ColorPurple:  rgb(86, 33, 107);
+    --ColorPurpleDemo: #654ea3;
+}
+
+.custom-card{
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--ColorWhite);
+   
+}
+
+.custom-card-image{
+    width: 250px;
+    height: 200px;
+    border-radius: 25px 25px 0px 0px;
+
+}
+.card{
+    border-radius: 25px;
+}
+.btnStyle{
+    background-color: var(--ColorDarkPurple);
+    color: white;
+}
+
+
+.jumbotronInicio{
+    color: var(--ColorWhite);
+    letter-spacing: 3px;
+    border-radius: 0%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("src/img/wallpapers/img-jb.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+/*NEW */
+
+body{
+    background: #654ea3;  
+    background: -webkit-linear-gradient(to bottom, #eaafc8, #654ea3);  
+    background: linear-gradient(to bottom, #eaafc8, #654ea3); 
+
+
+}
+
+.btnNav{
+    border:solid;
+    border-color: var(--ColorDarkPurple);
+    border-width: 1px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    
+}
+
+.btnNav:hover{
+    background-color: var(--ColorDarkPurple);
+    color: white;
+}
+
+/* ESTILOS DEL FOOTER */ 
+footer{
+    margin-top: 75px;
+    background-color: #212529;
+    border-top: solid var(--ColorBlack);
+  
+    color: var(--ColorWhite);
+}
+/* ESTILOS DEL TEXTO DEL FOOTER */ 
+.textFooter{
+    margin-top: 25px;
+    font-weight: bolder;
+}
+  
+.footerStyle{
+    background-color: var(--ColorBlack);
+    color: var(--ColorWhite);
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+ /* Contenedor de los iconos*/ 
+.iconContStyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 95px;
+}
+/* Iconos */
+.iconStyle{
+    margin:20px;
+}
+
+
+.btnProduct{
+    background-color: #212529;
+    color: var(--ColorWhite);
+}
+.btnProduct:hover{
+    background-color: var(--ColorPurpleDemo);
+    color: var(--ColorWhite);
+    border: solid;
+    border-color: var(--ColorWhite);
+    border-width: 1px;
+}
